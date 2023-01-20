@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.3.7"
 
-gem "activesupport"
+gem "activesupport", ">= 6.1.7.1"
 gem "figaro"
 gem "honeybadger"
 gem "httparty"
