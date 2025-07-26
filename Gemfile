@@ -4,16 +4,16 @@ source "https://rubygems.org"
 ruby "2.3.7"
 
 gem "activesupport"
-gem "figaro"
+gem "figaro", ">= 1.2.0"
 gem "honeybadger"
 gem "httparty"
-gem "nokogiri", "~> 1.8.5"
+gem "nokogiri", "~> 1.18.9"
 gem "rake"
 gem "redis"
 gem "require_all"
 gem "resque", "~> 2.0.0"
 gem "rubocop", "~> 0.49.1", require: false
-gem "thor"
+gem "thor", ">= 1.4.0"
 
 group :test do
   gem "rspec"
